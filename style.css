@@ -15,10 +15,6 @@ footer {
     color: white;
 }
 
-section.main {
-
-}
-
 section.quote {
     background-color: #E5E7EB;
 }
@@ -56,11 +52,7 @@ li {
     background-color: #3882f6;
 }
 
-.main h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-}
+
 
 .quote p {
     font-size: 36px;
@@ -89,8 +81,38 @@ li {
 .company-info button {
     width: 80px;
     color: white;
-    background-color: blue;
+    background-color: #3882f6;
+    padding: 5px 15px;
 }
 
 /* Main information section */ 
 
+section.main {
+
+}
+
+.main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card-container img {
+    border: 5px #3882f6 solid; 
+    border-radius: 15%;
+}
+
+.info-pug {
+    height: auto;
+    width: 300px; 
+}
