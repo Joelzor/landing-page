@@ -23,16 +23,28 @@ section.quote {
     background-color: #E5E7EB;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 
 ul {
     display: flex;
     list-style: none;
     gap: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -55,3 +67,30 @@ li {
     font-style: italic;
     color: #1F2937;
 }
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+}
+
+.resting-pug {
+    height: auto;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.company-info button {
+    width: 80px;
+    color: white;
+    background-color: blue;
+}
+
+/* Main information section */ 
+
