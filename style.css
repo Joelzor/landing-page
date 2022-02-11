@@ -46,10 +46,6 @@ li {
     color: #E5E7EB;
 }
 
-.registration-box {
-    background-color: #3882f6;
-}
-
 .title-container {
     display: flex;
     justify-content: center;
@@ -139,4 +135,35 @@ section.quote {
     font-weight: 800;
     margin-left: 30px;
     margin-top: -10px;
+}
+
+/* Registration section */ 
+
+.registration-box {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 15px 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.registration-text {
+    color: white;
+    flex: 1;
+}
+
+.registration-text h3 {
+    font-weight: 900;
+}
+
+.registration-button button {
+    color: #fff;
+    background-color: #3882f6;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 100px;
+    font-size: 22px;
 }
