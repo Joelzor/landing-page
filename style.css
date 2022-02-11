@@ -15,9 +15,7 @@ footer {
     color: white;
 }
 
-section.quote {
-    background-color: #E5E7EB;
-}
+
 
 nav {
     display: flex;
@@ -50,14 +48,6 @@ li {
 
 .registration-box {
     background-color: #3882f6;
-}
-
-
-
-.quote p {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
 }
 
 .title-container {
@@ -115,4 +105,38 @@ section.main {
 .info-pug {
     height: auto;
     width: 300px; 
+}
+
+/* Quote section */
+
+section.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+#caption {
+    text-align: right;
+    font-size: 24px;
+    color-adjust: black;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: -10px;
 }
